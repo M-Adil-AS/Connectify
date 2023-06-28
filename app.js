@@ -15,7 +15,7 @@ app.use(express.json())
 app.use('/api', require('./router-api'))
 
 let sessionOptions = session({
-  secret: process.env.SESSION,
+  secret: "klasnd 21jaloenwq wqei2e",
   store: MongoStore.create({client: require('./db')}),
   resave: false,
   saveUninitialized: false,
@@ -64,6 +64,9 @@ app.use(function(err, req, res, next) {
       req.flash('errors', "Cross site request forgery detected.")
       req.session.save(() => res.redirect('/'))
     } else {
+      console.log('Details')
+      console.log(err.code)
+      console.log(err)
       res.render("404")
     }
   }
