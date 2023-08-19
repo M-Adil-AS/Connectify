@@ -13,6 +13,6 @@ The social app project involves implementing user authentication and authorizati
 * Bootstrap  
 * JavaScript  
 
-Demo Link: 
+Demo Video: 
 
-![Connectify4](https://github.com/M-Adil-AS/Connectify/assets/115668271/ae0c0c46-796c-4ce5-93f8-3a18b0346f0f)
+https://github.com/M-Adil-AS/Connectify/assets/115668271/73e2d0b0-d33d-414d-abaa-684f8473ce8f
